@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tampilan4">
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="413dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="-25dp"
+        android:src="@drawable/foto_fizza1"/>
+
+    <TextView
+        android:layout_width="333dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="217dp"
+        android:layout_marginLeft="-360dp"
+        android:text="PEPPERONI PIZZA"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="239dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="-210dp"
+        android:text="Price: Rp 66.000,00"
+        android:textColor="@color/coklat"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pizza"
+        android:layout_width="357dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="-390dp"
+        android:text="Pepperoni pizza adalah pizza yang memiliki  topping daging pepperoni sapi asli. Di Italia, pepperoni disebut salame piccante (salami panas). Biasa menjadi bahan baku pizza di Amerika Serikat, yang sering mewakili 30% pelengkap. Pizza ini cocok untuk santap siang ataupun malam anda"
+        android:textColor="@color/coklat"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/orderNow"
+        android:layout_width="320dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="-335dp"
+        android:backgroundTint="@color/red"
+        android:text="Order Now"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="320dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="-319dp"
+        android:backgroundTint="@color/red"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</LinearLayout>

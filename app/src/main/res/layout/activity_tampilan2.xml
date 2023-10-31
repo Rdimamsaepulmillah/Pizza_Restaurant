@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tampilan2">
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/perso_male" />
+
+    <TextView
+        android:id="@+id/pengguna"
+        android:layout_width="340dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/lokasiimg"
+        android:layout_width="480dp"
+        android:layout_height="340dp"
+        android:layout_marginLeft="-400dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/main_1" />
+
+    <TextView
+        android:layout_width="94dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="-430dp"
+        android:layout_marginTop="430dp"
+        android:text="Store"
+        android:textColor="@color/coklat"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/lokasi"
+        android:layout_width="130dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="430dp"
+        android:textColor="@color/coklat"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="-342dp"
+        android:layout_marginTop="500dp"
+        android:text="Location"
+        android:textColor="@color/coklat"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="500dp"
+        android:text="Find on Maps"
+        android:textColor="@color/coklat"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="498dp"
+        android:src="@drawable/location_pin" />
+
+    <Button
+        android:id="@+id/seemenus"
+        android:layout_width="320dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="-345dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="@color/red"
+        android:text="See Menus"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="0dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="473dp" />
+
+</LinearLayout>

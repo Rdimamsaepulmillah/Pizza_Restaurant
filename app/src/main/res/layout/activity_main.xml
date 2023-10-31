@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/logo_restauran1" />
+
+
+    <TextView
+        android:layout_width="78dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="395dp"
+        android:text="Store"
+        android:textColor="@color/coklat"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="280dp"
+        android:layout_height="49dp"
+        android:elevation="20dp"
+        android:layout_marginLeft="-80dp"
+        android:layout_marginTop="430dp" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="-280dp"
+        android:text="Your Name"
+        android:textColor="@color/coklat"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="320dp"
+        android:layout_height="49dp"
+        android:hint="Please fill your name"
+        android:layout_marginLeft="-131dp"
+        android:layout_marginTop="535dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="320dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/red"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="-320dp"
+        app:cornerRadius="0dp" />
+</LinearLayout>

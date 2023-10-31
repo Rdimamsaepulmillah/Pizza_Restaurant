@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Restaurant</string>
+
+    <string-array name="location">
+        <item>Cihampelas</item>
+        <item>Cibiru</item>
+    </string-array>
+</resources>
